@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.container1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 1px red solid;
+}
